@@ -1,5 +1,5 @@
-import Nav from "./Nav";
-import Buscar from "./Buscar";
+import Nav from "./Nav/Nav";
+import Buscar from "./Buscar/Buscar";
 import { Link } from "react-router-dom";
 
 
@@ -13,8 +13,8 @@ export default function Header() {
                 <div className="col border" sm={1}>cadastre-se</div>
                 <div className="col border" sm={1}><Link to={'/'} className="btn btn-primary">Entrar</Link></div>
                 <div className="col border" sm={1}>
-                <button type="button" className="btn btn-light">
-                <i className="fa fa-shopping-cart"></i><span className="badge badge-light">9</span>
+                <button type="button" className="btn">
+                <i className="fa fa-shopping-cart"/><span className="badge badge-light">9</span>
                 </button>
                 </div>
             </div>
