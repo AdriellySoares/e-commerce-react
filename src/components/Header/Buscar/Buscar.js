@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Search } from "@mui/icons-material";
-import "./index.css";
-import { wrapper } from "./style";
+
 
 export default function Buscar(props) {
   const [conteudo, setConteudo] = useState("");
@@ -16,7 +15,7 @@ export default function Buscar(props) {
   }
 
   return (
-    <div style={{...wrapper,backgroundColor: props.backgroundColor || "white", }}>
+    <div>
       <Search className="icon" />
       <input
         className={classes}

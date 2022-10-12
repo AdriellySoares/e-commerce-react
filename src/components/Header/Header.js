@@ -1,6 +1,7 @@
 import Nav from "./Nav/Nav";
 import Buscar from "./Buscar/Buscar";
 import { Link } from "react-router-dom";
+import { ShoppingCart } from "@mui/icons-material";
 
 
 export default function Header() {
@@ -13,8 +14,8 @@ export default function Header() {
                 <div className="col border" sm={1}>cadastre-se</div>
                 <div className="col border" sm={1}><Link to={'/'} className="btn btn-primary">Entrar</Link></div>
                 <div className="col border" sm={1}>
-                <button type="button" className="btn">
-                <i className="fa fa-shopping-cart"/><span className="badge badge-light">9</span>
+                <button type="button btn-" className="btn">
+                <ShoppingCart/><span className="badge badge-danger">9</span>
                 </button>
                 </div>
             </div>
