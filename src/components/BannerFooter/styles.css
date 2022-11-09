@@ -1,34 +1,40 @@
-_imagem{
-    position: absolute;
-width: 573px;
-height: 330px;
-left: 52px;
-top: 2852px;
-
-background: url(tenis.png);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-_imagem{
-    position: absolute;
-width: 466px;
-height: 466px;
-left: 129px;
-top: 2824px;
-
-background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 100%);
+.placeholderBF{
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 553px;
 }
-
-_r2{
+.circuloFundo{
+    width: 466px;
+    height: 466px;
+    margin-top: 87px;
+    margin-left: 129px;
+    margin-right: 845px;
+    margin-bottom: 0px;
+}
+.tenisFooter{
+    margin-top: -430px;
+    margin-left: 60px;
+    margin-right: 845px;
+    margin-bottom: 0px;
+    z-index: 1000px;
+}
+.r2{
     position: absolute;
 width: 116px;
 height: 22px;
-left: 692px;
-top: 2843px;
+left: 792px;
+top: 2798px;
+display: flex;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 14px;
+font-size: 13.9px;
 line-height: 22px;
 
 letter-spacing: 0.75px;
@@ -36,12 +42,12 @@ letter-spacing: 0.75px;
 color: #C92071;
 }
 
-_r27{
+.r27{
     position: absolute;
 width: 514px;
 height: 100px;
-left: 692px;
-top: 2882px;
+left: 792px;
+top: 2830px;
 
 
 font-family: 'Inter';
@@ -54,12 +60,12 @@ letter-spacing: 1px;
 
 color: #474747;
 }
-_r271{
+.r271{
     position: absolute;
 width: 589px;
 height: 112px;
-left: 692px;
-top: 3002px;
+left: 792px;
+top: 2950px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -71,7 +77,7 @@ letter-spacing: 0.75px;
 
 color: #474747;
 }
-_r273{
+/* .r273{
     position: absolute;
 left: 0%;
 right: 0%;
@@ -90,4 +96,11 @@ text-align: center;
 letter-spacing: 0.75px;
 
 color: #F5F5F5;
-}
+} */
+/* .r273{
+left: 696;
+top: 5900px;
+bottom: 560;
+background: #C92071;
+border-radius: 8px;
+} */
